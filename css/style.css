@@ -21,6 +21,10 @@ header {
 
 }
 
+footer {
+    height: 20%;
+}
+
 .sec_header h1 {
     text-align: center;
 }
