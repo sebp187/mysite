@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <link rel="stylesheet" href="../css/unterseiten.css">
+</head>
+<body>
+    <header>
+        <nav>
+			<a href="../index.html">Startseite</a>
+			<a href="uebermich.html">Über mich</a>
+			<a href="programmierkenntnisse.html">Programmierkenntnisse</a>
+			<a href="impressum.html">Impressum</a>
+			<a href="kontaktformular.html">Kontaktformular</a>
+            <a href="fakten.html">Fakten</a>
+		</nav>
+    </header>
+
+    <h1>Kontaktformular</h1>
+    <p>
+        Wenn Sie Interesse daran haben, mit mir in Kontakt zu treten und gemeinsame Projekte zu verwirklichen, hinterlassen Sie gerne Ihre Daten im Formular. Ich werde mich so bald wie möglich bei Ihnen melden, um weitere Details zu besprechen und mögliche Kooperationen zu planen.
+    </p>
+    <div class="formular-div">
+        <form class="formular" action="">
+            <input type="text" name="name" id="name" placeholder="Name u. Nachname" autocomplete="off">
+            <input type="email" id="email" name="email" placeholder="Email" autocomplete="off">
+            <input type="tel" id="tel" name="tel" placeholder="Telefon" autocomplete="off">
+            <select name="land" id="land">
+                <option value="">Wohnsitz auswählen</option>
+                <option value="at">Österreich</option>
+                <option value="de">Deutschland</option>
+                <option value="ch">Schweiz</option>
+                <option value="aa">andere</option>
+            </select>
+            <textarea name="description" id="inf" placeholder="Hier können Sie eine kurze Info über Sie eingeben, damit ich mehr über Sie erfahren kann." rows="5" cols="50"></textarea>
+            <button type="submit">Absenden</button>
+        </form>
+    </div>
+    
+</body>
+</html>
